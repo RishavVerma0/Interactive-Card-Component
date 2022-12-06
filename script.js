@@ -25,13 +25,6 @@ form.addEventListener("submit", (e) => {
       modal.style.display = "none";
     }
   });
-
-  //This approach works but upper one is better
-  // if((document.getElementsByClassName('error-empty').length) > 0 || (document.getElementsByClassName('error-invalid').length) > 0){
-  //     modal.style.display = "none";
-  // }else{
-  //     modal.style.display = "flex";
-  // }
 });
 
 const containsNameInput = function (input) {
